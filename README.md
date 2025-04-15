@@ -38,4 +38,19 @@ This is a real-time multi-platform Campaign Optimization Engine built in **Golan
 ---
 
 ## 📁 Project Structure
+campaign-engine/ ├── main.go // Entry point ├── models/ │ ├── campaign.go // Campaign struct │ └── platform.go // Platform struct ├── engine/ │ └── campaign_engine.go // Core engine logic
+
+
+---
+
+## ▶️ How to Run
+
+Make sure you have Go installed.
+
+```bash
+git clone <your repo OR extract the zip>
+cd campaign-engine
+go mod init campaign-engine
+go mod tidy
+go run main.go
 
